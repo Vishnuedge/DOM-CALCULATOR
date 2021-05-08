@@ -1,0 +1,120 @@
+li{
+    list-style: none;
+}
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ecf0f3;
+}
+.container{
+    margin-top: 3%;
+    width: 370px;
+    height: 600px;
+    border-radius: 40px;
+    background-color: #ecf0f3;
+    box-shadow: 13px 13px 20px #cbced1,
+                -13px -13px 20px #ffffff;
+                overflow: hidden;
+
+}
+.output{
+    margin: 0 auto;
+    margin-top: 8%;
+    width: 90%;
+    height: 130px;
+}
+#output{
+    width: 100%;
+    height: 100%;
+    outline: none;
+    background: none;
+    border: none;
+    text-align: right;
+    border-radius: 20px;
+    font-size: 35px;
+    background-color: #ecf0f3;
+    box-shadow: inset 13px 13px 20px #cbced1,
+    inset -13px -13px 20px #ffffff;
+}
+::placeholder{
+    letter-spacing: 2px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.btn{
+    margin-top: 3%;
+    margin-left: 5%; 
+}
+.btn div{
+    display: flex;
+    text-align: center;
+}
+
+input[type = "button"]{
+    color: grey;
+    font-size: 20px;
+    margin: 10px;
+    margin-left:1px;
+    padding: 20px 30px;
+    border: none;
+    border-radius: 50px;
+    background-color: #ECF0F3;
+    box-shadow: 0px 0px 0px 2px #c9cccf,
+    0px 0px 0px 5px #ecf0f3,
+    6px 6px 15px 0px #a7aaaf,
+    -6px 6px 15px 2px #ffffff;
+}
+input[type = "button"]:active{
+    border-radius: 50px;
+    background-color: #ECF0F3;
+    box-shadow:inset 13px 13px 20px #c9cccf,
+               inset -13px -13px 20pc #ffffff ;
+
+}
+input[name = 'cln']{
+    padding: 20px 70px;
+    color: #fff;
+    background-color: #ff0de7;
+}
+input[name = 'cln']:active{
+    background-color: #ff0de7;
+    box-shadow: inset 13px 13px  20px #d90bc4,
+                inset -13px -13px 20px #ff0fff;
+}
+input[name = 'add']{
+    padding: 60px 35px;
+    color: #fff;
+    background-color: #38f516;
+    box-shadow: 0px 0px 0px 2px #c9cccf,
+    0px 0px 0px 5px #ecf0f3,
+    8px 8px 15px 0x #a7aaaf,
+    -8px -8px 15px 5px #c9cccf;
+}
+input[name = 'add']:active{
+    background-color: #38f516;
+    box-shadow: inset 10px 13px  20px #30d013,
+                inset -10px -13px 20px #40ff19;
+}
+
+input [name = 'zero']{
+    color: #ffffff;
+    background-color: dodgerblue;
+    box-shadow: 0px 0px 0px 2px #c9cccf,
+    0px 0px 0px 5px #ecf0f3,
+    8px 8px 15px 0x #a7aaaf,
+    -8px -8px 15px 5px #c9cccf;
+}
+input[name = 'zero']:active{
+    background-color: #1e90ff;
+    box-shadow: inset 20px 20px  60px #1e90ff,
+                inset -20px 20px 60px #23a6ff;
+}
+.row4{
+    margin-top: -80px;
+}
